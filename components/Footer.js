@@ -2,10 +2,10 @@ import styles from "../styles/footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+   <footer className={styles.footer}>
       Powered by{" "}
-      <a href="https://wpengine.com" target="_blank" rel="noopener noreferrer">
-        WP Engine
+      <a href="https://hostlabs.pro" target="_blank" rel="noopener noreferrer">
+        HostLabs | a StevensLabs co
       </a>
       <span>
         &copy; {new Date().getFullYear()}
